@@ -1,0 +1,9 @@
+Create database Login;
+use Login;
+CREATE TABLE Usuario 
+(Id_Pessoa INT auto_increment Primary KEY NOT NULL,
+Nome_Pessoa VARCHAR(255)  NOT NULL , 
+Last_Pessoa VARCHAR(255)  NOT NULL , 
+Username_Pessoa VARCHAR(20)  NOT NULL , 
+Email_Pessoa VARCHAR(255)  NOT NULL,
+Senha_Pessoa varchar(16)NOT NULL );

@@ -24,6 +24,7 @@ align-items: center;
 display: flex;
 }
 #button {
+    cursor: pointer;
     background-color: blueviolet;
     width: 250%;
     border-radius: 10px;
