@@ -58,7 +58,7 @@ if(isset($_post['Username'])|| isset($_post['Password'])) {
                     <button type="submit" name="submit" id="button">
                     <h1>Login</h1>
                     </button>
-                    <a href="./html/cadastro.html"><p>Não tenho login</p></a>
+                    <a href="./html/cadastro.php"><p>Não tenho login</p></a>
 
             </div>
         </form>
